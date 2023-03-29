@@ -37,6 +37,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest && git add . && git commit -m 'Tests passed' && git push"
   }
 }
